@@ -43,6 +43,9 @@ function cardMaker(article){
     cardPicContainer.appendChild(cardImg)
     cardAuthorProfile.appendChild(cardAuthorName)
 
+    cardBox.addEventListener('click' , e =>{
+        console.log(cardHeadline.textContent)
+    })
     return cardBox
 }
 
