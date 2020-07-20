@@ -20,6 +20,10 @@ function Header(date, title, temp) {
     const tempDay = document.createElement('span')
     tempDay.classList.add('temp')
 
+    dateLine.textContent = date
+    newspaperTitle.textContent = title
+    tempDay.textContent = temp
+
     headerBox.appendChild(dateLine)
     headerBox.appendChild(newspaperTitle)
     headerBox.appendChild(tempDay)
